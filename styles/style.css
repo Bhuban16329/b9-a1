@@ -7,11 +7,9 @@ body {
 header {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
-    width: 1320px;
-    height: 600px;
-    flex-shrink: 0;
+    background-position: center center;
     border-radius: 16px;
-    margin: 50px 140px 120px 100px;
+    margin: 50px 140px 120px 120px;
 }
 
 .section-one {
@@ -54,7 +52,8 @@ header {
     font-size: 24px;
     font-weight: 500;
     padding-top: 20px;
-    margin-bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .head-four {
@@ -62,32 +61,29 @@ header {
     font-size: 48px;
     font-weight: 700;
     margin-top: 0;
-    padding: auto;
-    margin-bottom: 0;
 }
 
 .img-one {
     fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    width: 802.9px;
-    height: 500px;
     flex-shrink: 0;
     padding-top: 48px;
+    margin-top: 0;
 }
 
 .section-three {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
+    background-position: center center;
     border-radius: 16px;
-    margin: 120px 140px 120px 100px;
-    width: 1320px;
+    margin: 120px 140px 120px 120px;
     height: 600px;
-    flex-shrink: 0;
-    margin-top: 120px;
 }
 
-.division-one {
+.section-three .division-one {
     display: flex;
+    gap: 45px;
     padding: 130px;
+
 }
 
 .head-two {
@@ -128,4 +124,55 @@ header {
     mix-blend-mode: multiply;
     width: 319.83px;
     height: 464.662px;
+}
+
+.section-four {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    border-radius: 16px;
+    margin: 120px 140px 120px 120px;
+    font-size: 32px;
+    line-height: 56px;
+    padding: 100px 285px 120px;
+}
+
+.color {
+    color: #F00;
+    padding: 0;
+}
+
+.btn-two {
+    display: inline-flex;
+    padding: 18px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    border: 0;
+}
+
+.pera-three {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.division-two {
+    display: flex;
+    gap: 115px;
+    justify-content: space-between;
+    margin: 120px 140px;
+}
+
+.img-three {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 45px;
+}
+.division-three{
+    padding-bottom: 150px;
 }
