@@ -246,7 +246,43 @@ header {
     border: 0;
     color: #FFF;
 }
+
 /* footer section */
-footer{
+footer {
     background-color: #070211;
+    margin: 120 120px;
+    padding: 120px 120px;
+    
+}
+
+.phn-num {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.section-seven {
+    display: flex;
+    gap: 399px;
+}
+
+.head-five {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+}
+.section-eight{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    padding: 50px 0px 50px 450px;
+    
+}
+.section-nine{
+    display: flex;
+    gap: 800px;
+    padding-top: 100px;
+}
+hr{
+    background: rgba(255, 255, 255, 0.15);
 }
