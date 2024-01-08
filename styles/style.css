@@ -8,6 +8,7 @@ header {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     border-radius: 16px;
     margin: 50px 140px 120px 120px;
 }
@@ -74,16 +75,17 @@ header {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     border-radius: 16px;
     margin: 120px 140px 120px 120px;
     height: 600px;
 }
 
-.section-three .division-one {
+.division-one {
     display: flex;
     gap: 45px;
-    padding: 130px;
-
+    padding: 130px 130px 300px 130px;
+    justify-content: space-around;
 }
 
 .head-two {
@@ -118,18 +120,11 @@ header {
     text-transform: uppercase;
 }
 
-.img-two {
-    fill: radial-gradient(50% 50% at 50% 50%, #690B02 27%, #8F4941 39%, #B18079 51%, #CDADA8 62%, #E3D1CD 73%, #F2EAE7 84%, #FCFAF6 93%, #FFFFFC 100%);
-    background-blend-mode: multiply;
-    mix-blend-mode: multiply;
-    width: 319.83px;
-    height: 464.662px;
-}
-
 .section-four {
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     text-align: center;
     border-radius: 16px;
     margin: 120px 140px 120px 120px;
@@ -173,6 +168,85 @@ header {
     border: 15px solid #F00;
     padding: 45px;
 }
-.division-three{
+
+.division-three {
     padding-bottom: 150px;
+}
+
+.section-five {
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    margin: 80px 50px;
+}
+
+.division-four {
+    display: flex;
+    background-image: url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-top: 15px;
+}
+
+.pera-four {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.division-five {
+    text-align: center;
+    margin: 120px 120px;
+    padding: 0;
+}
+
+.division-six {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.section-six {
+    margin: 120px 140px;
+}
+
+.division-seven {
+    margin: 0;
+}
+
+.last-section {
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    text-align: center;
+    padding: 80px 212px;
+    margin: 120px 140px;
+}
+
+.place-btn {
+    display: flex;
+    flex-flow: row;
+    background: #FFF;
+    border-radius: 50px;
+
+}
+
+.place-holder {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    padding: 25px 477px 25px 30px;
+    border-radius: 50px;
+    border: 0;
+}
+
+.btn-three {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 24px 56px;
+    border: 0;
+    color: #FFF;
+}
+/* footer section */
+footer{
+    background-color: #070211;
 }
